@@ -1,721 +1,133 @@
 <html>
 
 <head>
-<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<title>SumUp Tech Radar</title>
-<link rel="shortcut icon" href="https://www.sumup.com/favicon.ico">
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>SumUp Tech Radar</title>
+  <link rel="shortcut icon" href="https://static.sumup.com/favicons/favicon.ico">
 
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="radar.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="radar.js"></script>
 
-<link rel="stylesheet" href="radar.css">
+  <script src="technologies/data-management.js"></script>
+  <script src="technologies/infrastructure.js"></script>
+  <script src="technologies/languages.js"></script>
+  <script src="technologies/tools-frameworks.js"></script>
+
+  <link rel="stylesheet" href="radar.css">
 </head>
 
 <body>
+  <svg id="radar"></svg>
+  <script>
+    radar_visualization({
+      svg_id: "radar",
+      width: 1450,
+      height: 1100,
+      colors: {
+        background: "#fff",
+        grid: "#bbb",
+        inactive: "#ddd",
+      },
+      title: "SumUp Tech Radar — 2022.04",
+      quadrants: [
+        { name: "Languages" },
+        { name: "Infrastructure" },
+        { name: "Tools & Frameworks" },
+        { name: "Data Management" },
+      ],
+      rings: [
+        { name: "ADOPT", color: "#93c47d" },
+        { name: "TRIAL", color: "#93d2c2" },
+        { name: "ASSESS", color: "#fbdb84" },
+        { name: "HOLD", color: "#efafa9" },
+      ],
+      print_layout: true,
+      // zoomed_quadrant: 0,
+      entries: [
+        ...dataManagement,
+        ...toolsAndFrameworks,
+        ...infrastructure,
+        ...languages,
+      ],
+    });
+  </script>
 
-<svg id="radar"></svg>
+  <table>
+    <tr>
+      <td>
 
-<script>
-radar_visualization({
-  svg_id: "radar",
-  width: 1450,
-  height: 1100,
-  colors: {
-    background: "#fff",
-    grid: "#bbb",
-    inactive: "#ddd",
-  },
-  title: "SumUp Tech Radar — 2021.04",
-  quadrants: [
-    { name: "Languages" },
-    { name: "Infrastructure" },
-    { name: "Tools & Frameworks" },
-    { name: "Data Management" },
-  ],
-  rings: [
-    { name: "ADOPT", color: "#93c47d" },
-    { name: "TRIAL", color: "#93d2c2" },
-    { name: "ASSESS", color: "#fbdb84" },
-    { name: "HOLD", color: "#efafa9" },
-  ],
-  tribes: [
-    { name: "Acquisition", technologies: ["ReactJS", "TypeScript"] },
-    {
-      name: "Platform",
-      technologies: ["AWS S3", "MongoDB", "Tableau", "ReactJS"],
-    },
-  ],
-  print_layout: true,
-  // zoomed_quadrant: 0,
-  //ENTRIES
-  entries: [
-    // Data Management
-    // Data Management - ADOPT
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "PostgreSQL",
-      active: true,
-      link: "../datastores/postgresql.html",
-      moved: 0,
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "MongoDB",
-      active: false,
-      link: "../data_processing/mongodb.html",
-      moved: 0,
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "BigQuery",
-      active: false,
-      link: "../datastores/cassandra.html",
-      moved: 0,
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "AWS S3",
-      active: false,
-      link: "../datastores/aws_s3.html",
-      moved: 0,
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "Tableau",
-      active: false,
-      link: "../datastores/tableau.html",
-      moved: 0,
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "Redis",
-      active: false,
-      link: "../datastores/redis.html",
-      moved: 0,
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "Airflow",
-      active: false,
-      link: "../datastores/airflow.html",
-      moved: 0,
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "RabbitMQ",
-      active: false,
-      link: "../queues/rabbitmq.html",
-      moved: 0,
-    },
-    // Data Management - TRIAL
-    {
-      quadrant: 3,
-      ring: 1,
-      label: "Kafka",
-      active: false,
-      link: "../queues/kafka.html",
-      moved: 0,
-    },
-    {
-      quadrant: 3,
-      ring: 1,
-      label: "Spark",
-      active: false,
-      link: "../datastores/spark.html",
-      moved: 0,
-    },
-    {
-      quadrant: 3,
-      ring: 1,
-      label: "Redshift",
-      active: false,
-      link: "../datastores/redshift.html",
-      moved: 0,
-    },
-    // Data Management - ASSESS
-    {
-      quadrant: 3,
-      ring: 2,
-      label: "MariaDB",
-      active: false,
-      link: "../datastores/mariadb.html",
-      moved: 0,
-    },
-    {
-      quadrant: 3,
-      ring: 2,
-      label: "Elasticsearch",
-      active: false,
-      link: "../datastores/elasticsearch.html",
-      moved: 0,
-    },
-    {
-      quadrant: 3,
-      ring: 2,
-      label: "Presto",
-      active: false,
-      link: "../datastores/presto.html",
-      moved: 0,
-    },
-    {
-      quadrant: 3,
-      ring: 2,
-      label: "GTM",
-      active: false,
-      link: "../datastores/gtm.html",
-      moved: 0,
-    },
-    {
-      quadrant: 3,
-      ring: 2,
-      label: "Snowflake",
-      active: false,
-      link: "../datastores/snowflake.html",
-      moved: 0,
-    },
-    // Data Management - HOLD
-    {
-      quadrant: 3,
-      ring: 3,
-      label: "Talend",
-      active: false,
-      link: "../datastores/talend.html",
-      moved: 0,
-    },
+        <h3>What is the Tech Radar?</h3>
 
-    // Tools & Frameworks
-    // Tools & Frameworks - ADOPT
-    {
-      quadrant: 2,
-      ring: 0,
-      label: "Node.js",
-      active: false,
-      link: "../frameworks/nodejs.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 0,
-      label: "Spring",
-      active: false,
-      link: "../frameworks/spring.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 0,
-      label: "Sentry",
-      active: false,
-      link: "../frameworks/sentry.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 0,
-      label: "Gradle",
-      active: false,
-      link: "../frameworks/gradle.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 0,
-      label: "ReactJS",
-      active: false,
-      link: "../frameworks/reactjs.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 0,
-      label: "Redux",
-      active: false,
-      link: "../frameworks/redux.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 0,
-      label: "Webpack",
-      active: false,
-      link: "../frameworks/webpack.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 0,
-      label: "Firebase",
-      active: false,
-      link: "../frameworks/firebase.html",
-      moved: 0,
-    },
-    // Tools & Frameworks - TRIAL
-    {
-      quadrant: 2,
-      ring: 1,
-      label: "MobX",
-      active: false,
-      link: "../frameworks/mobx.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 1,
-      label: "BranchIO",
-      active: false,
-      link: "../frameworks/branchio.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 1,
-      label: "Cloud Functions",
-      active: false,
-      link: "../frameworks/cloud-functions-gcp.html",
-      moved: 0,
-    },
-    // Tools & Frameworks - ASSESS
-    {
-      quadrant: 2,
-      ring: 2,
-      label: "Symfony",
-      active: false,
-      link: "../frameworks/symfony.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 2,
-      label: "Vue.js",
-      active: false,
-      link: "../frameworks/vuejs.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 2,
-      label: "Preact",
-      active: false,
-      link: "../frameworks/preact.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 2,
-      label: "Rollup",
-      active: false,
-      link: "../frameworks/rollup.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 2,
-      label: "CircleCI",
-      active: false,
-      link: "../frameworks/circleci.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 2,
-      label: "Flutter",
-      active: false,
-      link: "../frameworks/flutter.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 2,
-      label: "React Native",
-      active: false,
-      link: "../frameworks/react-native.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 2,
-      label: "yarn",
-      active: false,
-      link: "../frameworks/yarn.html",
-      moved: 0,
-    },
-    // Tools & Frameworks - HOLD
-    {
-      quadrant: 2,
-      ring: 3,
-      label: "JQuery",
-      active: false,
-      link: "../frameworks/jquery.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 3,
-      label: "BackboneJS",
-      active: false,
-      link: "../frameworks/backbonejs.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 3,
-      label: "AngularJS",
-      active: false,
-      link: "../frameworks/angularjs.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 3,
-      label: "Gulp",
-      active: false,
-      link: "../frameworks/gulp.html",
-      moved: 0,
-    },
-    {
-      quadrant: 2,
-      ring: 3,
-      label: "Team City",
-      active: false,
-      link: "../frameworks/teamcity.html",
-      moved: 0,
-    },
+        <p>
+          The SumUp Tech Radar is a list of technologies, complemented by an assessment result, called <em>ring
+            assignment</em>. We use four rings with the following semantics:
+        </p>
 
-    // Infrastructure
-    // Infrastructure - ADOPT
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "Docker",
-      active: false,
-      link: "../infrastructure/docker.html",
-      moved: 0,
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "Kubernetes",
-      active: false,
-      link: "../infrastructure/kubernetes.html",
-      moved: 0,
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "Terraform",
-      active: false,
-      link: "../infrastructure/terraform.html",
-      moved: 0,
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "AWS Cloudfront",
-      active: false,
-      link: "../infrastructure/aws-cloudfront.html",
-      moved: 0,
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "Prometheus",
-      active: false,
-      link: "../infrastructure/prometheus.html",
-      moved: 0,
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "Consul",
-      active: false,
-      link: "../infrastructure/consul.html",
-      moved: 0,
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "Vault",
-      active: false,
-      link: "../infrastructure/vault.html",
-      moved: 0,
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "Grafana",
-      active: false,
-      link: "../infrastructure/grafana.html",
-      moved: 0,
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "ArgoCD",
-      active: false,
-      link: "../infrastructure/argocd.html",
-      moved: 0,
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "Helm",
-      active: false,
-      link: "../infrastructure/Helm.html",
-      moved: 0,
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "Cloudflare",
-      active: false,
-      link: "../infrastructure/cloudflare.html",
-      moved: 0,
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "New Relic",
-      active: false,
-      link: "../infrastructure/newrelic.html",
-      moved: 0,
-    },
-    // Infrastructure - TRIAL
-    {
-      quadrant: 1,
-      ring: 1,
-      label: "Rapid7",
-      active: false,
-      link: "../infrastructure/rapid7.html",
-      moved: 1,
-    },
-    {
-      quadrant: 1,
-      ring: 1,
-      label: "Terraform Cloud",
-      active: false,
-      link: "../infrastructure/terraform-cloud.html",
-      moved: 1,
-    },
-    // Infrastructure - ASSESS
-    {
-      quadrant: 1,
-      ring: 2,
-      label: "OpenTracing",
-      active: false,
-      link: "../infrastructure/opentracing.html",
-      moved: 1,
-    },
-    {
-      quadrant: 1,
-      ring: 2,
-      label: "Service Mesh",
-      active: false,
-      link: "../infrastructure/service-mesh.html",
-      moved: 1,
-    },
-    // Infrastructure - HOLD
+        <ul>
+          <li><strong>ADOPT</strong> &mdash; These are technologies that we’re very confident can serve a particular
+            purpose and on a large scale. These are low risk and recommended for wider use.</li>
+          <li><strong>TRIAL</strong> &mdash; We’ve successfully used these technologies to solve a real-world problem,
+            discovering benefits but also uncovering certain limitations. Trial technologies are more risky. Engineers
+            are able to share their knowledge and experience, but the technology should be investigated further before a
+            wider adoption across SumUp.</li>
+          <li><strong>ASSESS</strong> &mdash; Technologies in this ring are promising and have clear potential for us.
+            It’s worth researching these further. Assess technologies have a higher risk. They’re often new and unproven
+            within the company. You’ll find some engineers that have previous experience with them but these
+            technologies should not be adopted without further evaluation.</li>
+          <li><strong>HOLD</strong> &mdash; These technologies aren’t yet worth further investment and should not be
+            used for new projects. Hold technologies can usually, however, continue being used for existing projects
+            when it’s too costly to migrate.</li>
+        </ul>
 
-    // Languages
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "Go",
-      active: true,
-      link: "go.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "JavaScript",
-      active: true,
-      link: "javascript.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "Elixir",
-      active: true,
-      link: "elixir.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "Java",
-      active: true,
-      link: "java.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "Python",
-      active: true,
-      link: "languages/python.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "ObjectiveC",
-      active: true,
-      link: "languages/objectivec.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "Swift",
-      active: true,
-      link: "languages/swift.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 1,
-      label: "Kotlin",
-      active: true,
-      link: "languages/kotlin.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 1,
-      label: "OpenAPI (Swagger)",
-      active: true,
-      link: "openapi_swagger.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "TypeScript",
-      active: true,
-      link: "typescript.html",
-      moved: 1,
-    },
-    {
-      quadrant: 0,
-      ring: 1,
-      label: "Scala",
-      active: true,
-      link: "languages/scala.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 2,
-      label: "PUG",
-      active: true,
-      link: "languages/pug.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 2,
-      label: "PHP",
-      active: true,
-      link: "languages/php.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 2,
-      label: "Dart",
-      active: true,
-      link: "languages/dart.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 3,
-      label: "Ruby",
-      active: true,
-      link: "languages/ruby.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 3,
-      label: "Erlang",
-      active: true,
-      link: "languages/erlang.html",
-      moved: 0,
-    },
-    {
-      quadrant: 0,
-      ring: 3,
-      label: "GoMobile",
-      active: true,
-      link: "languages/gomobile.html",
-      moved: 0,
-    },
-  ],
-  //ENTRIES
-});
-</script>
+      </td>
+      <td>
 
-<table>
-<tr>
-<td>
+        <h3>What is the purpose?</h3>
 
-<h3>What is the Tech Radar?</h3>
+        <p>
+          As well as efficient alignment, uncovering the strengths and weaknesses of these technologies helps our teams
+          avoid having many different tools for the same job, narrows down the best choices and builds deep expertise
+          across the company through experience. This makes SumUp an altogether more resilient engineering organisation.
+        </p>
+        <p>
+          Technology is always evolving. Similarly, companies need to adapt and diversify the technologies they use. Our
+          Tech Radar helps us introduce new technologies at SumUp, in a safe way based on risk assessment.
+        </p>
+        <p>
+          Whenever a team starts a new project, they can use our Tech Radar to research and find inspiration for
+          software, with the pros and cons of each fully explained. Our engineers can learn from other teams and
+          companies using the technology, helping to minimise pitfalls whilst amplifying successes.
+        </p>
+        <p>
+          And when engineers successfully use a new technology in production, we acknowledge this by adding it to the
+          Tech Radar.
+        </p>
+        <p>
+          But where new technologies emerge, others can fade away. Open source projects we use may no longer be
+          supported with regular bug fixes, leaving us exposed to security vulnerabilities. We use our framework to be
+          able to identify these technologies and migrate away from them.
+        </p>
+        <p>
+          <em>BTW, if you would like to create your own Tech Radar &mdash; Zalando has <a
+              href="https://github.com/zalando/tech-radar">open sourced the code</a> to generate this
+            visualization.</em>
+        </p>
 
-<p>
-The SumUp Tech Radar is a list of technologies, complemented by an assessment result, called <em>ring assignment</em>. We use four rings with the following semantics:
-</p>
+      </td>
+    </tr>
+  </table>
 
-<ul>
-<li><strong>ADOPT</strong> &mdash; These are technologies that we’re very confident can serve a particular purpose and on a large scale. These are low risk and recommended for wider use.</li>
-<li><strong>TRIAL</strong> &mdash; We’ve successfully used these technologies to solve a real-world problem, discovering benefits but also uncovering certain limitations. Trial technologies are more risky. Engineers are able to share their knowledge and experience, but the technology should be investigated further before a wider adoption across SumUp.</li>
-<li><strong>ASSESS</strong> &mdash; Technologies in this ring are promising and have clear potential for us. It’s worth researching these further. Assess technologies have a higher risk. They’re often new and unproven within the company. You’ll find some engineers that have previous experience with them but these technologies should not be adopted without further evaluation.</li>
-<li><strong>HOLD</strong> &mdash; These technologies aren’t yet worth further investment and should not be used for new projects. Hold technologies can usually, however, continue being used for existing projects when it’s too costly to migrate.</li>
-</ul>
-
-</td><td>
-
-<h3>What is the purpose?</h3>
-
-<p>
-  As well as efficient alignment, uncovering the strengths and weaknesses of these technologies helps our teams avoid having many different tools for the same job, narrows down the best choices and builds deep expertise across the company through experience. This makes SumUp an altogether more resilient engineering organisation.
-</p>
-<p>
-  Technology is always evolving. Similarly, companies need to adapt and diversify the technologies they use. Our Tech Radar helps us introduce new technologies at SumUp, in a safe way based on risk assessment.
-</p>
-<p>
-  Whenever a team starts a new project, they can use our Tech Radar to research and find inspiration for software, with the pros and cons of each fully explained. Our engineers can learn from other teams and companies using the technology, helping to minimise pitfalls whilst amplifying successes. 
-</p>
-<p>
-  And when engineers successfully use a new technology in production, we acknowledge this by adding it to the Tech Radar.
-</p>
-<p>
-  But where new technologies emerge, others can fade away. Open source projects we use may no longer be supported with regular bug fixes, leaving us exposed to security vulnerabilities. We use our framework to be able to identify these technologies and migrate away from them.
-</p>
-<p>
-<em>BTW, if you would like to create your own Tech Radar &mdash; Zalando has <a href="https://github.com/zalando/tech-radar">open sourced the code</a> to generate this visualization.</em>
-</p>
-
-</td></tr>
-</table>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'XXX', 'auto');
-  ga('send', 'pageview');
-</script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'XXX', 'auto');
+    ga('send', 'pageview');
+  </script>
 
 </body>
+
 </html>
