@@ -1,0 +1,1751 @@
+{
+    "entries": [
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Airflow",
+            "id": "Airflow",
+            "title": "Airflow",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Amazon-Athena",
+            "id": "Amazon-Athena",
+            "title": "Amazon Athena",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Amazon-Aurora",
+            "id": "Amazon-Aurora",
+            "title": "Amazon Aurora",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Ascend",
+            "id": "Ascend",
+            "title": "Ascend",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-DynamoDB",
+            "id": "AWS-DynamoDB",
+            "title": "AWS DynamoDB",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-EMR",
+            "id": "AWS-EMR",
+            "title": "AWS EMR",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-Glue",
+            "id": "AWS-Glue",
+            "title": "AWS Glue",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-Keyspaces",
+            "id": "AWS-Keyspaces",
+            "title": "AWS Keyspaces",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-S3",
+            "id": "AWS-S3",
+            "title": "AWS S3",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-SageMaker",
+            "id": "AWS-SageMaker",
+            "title": "AWS SageMaker",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-SNS",
+            "id": "AWS-SNS",
+            "title": "AWS SNS",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-SQS",
+            "id": "AWS-SQS",
+            "title": "AWS SQS",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "BigQuery",
+            "id": "BigQuery",
+            "title": "BigQuery",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Elasticsearch",
+            "id": "Elasticsearch",
+            "title": "Elasticsearch",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "GTM",
+            "id": "GTM",
+            "title": "GTM",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Kafka",
+            "id": "Kafka",
+            "title": "Kafka",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "MariaDB",
+            "id": "MariaDB",
+            "title": "MariaDB",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Mulesoft",
+            "id": "Mulesoft",
+            "title": "Mulesoft",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Peek-Data",
+            "id": "Peek-Data",
+            "title": "Peek Data",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "PostgreSQL",
+            "id": "PostgreSQL",
+            "title": "PostgreSQL",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Presto",
+            "id": "Presto",
+            "title": "Presto",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "RabbitMQ",
+            "id": "RabbitMQ",
+            "title": "RabbitMQ",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Redis",
+            "id": "Redis",
+            "title": "Redis",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Redshift",
+            "id": "Redshift",
+            "title": "Redshift",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Snowflake",
+            "id": "Snowflake",
+            "title": "Snowflake",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Spark",
+            "id": "Spark",
+            "title": "Spark",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Tableau",
+            "id": "Tableau",
+            "title": "Tableau",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Talend",
+            "id": "Talend",
+            "title": "Talend",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Treasure-Data",
+            "id": "Treasure-Data",
+            "title": "Treasure Data",
+            "quadrant": "dataManagement"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "ArgoCD",
+            "id": "ArgoCD",
+            "title": "ArgoCD",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-API-Gateway",
+            "id": "AWS-API-Gateway",
+            "title": "AWS API Gateway",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-Cloudfront",
+            "id": "AWS-Cloudfront",
+            "title": "AWS Cloudfront",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-CloudWatch",
+            "id": "AWS-CloudWatch",
+            "title": "AWS CloudWatch",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-EC2",
+            "id": "AWS-EC2",
+            "title": "AWS EC2",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-ECS",
+            "id": "AWS-ECS",
+            "title": "AWS ECS",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-EKS",
+            "id": "AWS-EKS",
+            "title": "AWS EKS",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-KMS",
+            "id": "AWS-KMS",
+            "title": "AWS KMS",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-Lambda",
+            "id": "AWS-Lambda",
+            "title": "AWS Lambda",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-MSK",
+            "id": "AWS-MSK",
+            "title": "AWS MSK",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-Parameter-Store",
+            "id": "AWS-Parameter-Store",
+            "title": "AWS Parameter Store",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWS-RDS",
+            "id": "AWS-RDS",
+            "title": "AWS RDS",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AWX",
+            "id": "AWX",
+            "title": "AWX",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Cloudflare",
+            "id": "Cloudflare",
+            "title": "Cloudflare",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Consul",
+            "id": "Consul",
+            "title": "Consul",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Datadog",
+            "id": "Datadog",
+            "title": "Datadog",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Docker",
+            "id": "Docker",
+            "title": "Docker",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Grafana",
+            "id": "Grafana",
+            "title": "Grafana",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Helm",
+            "id": "Helm",
+            "title": "Helm",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Honeycomb",
+            "id": "Honeycomb",
+            "title": "Honeycomb",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Kubernetes",
+            "id": "Kubernetes",
+            "title": "Kubernetes",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Kustomize",
+            "id": "Kustomize",
+            "title": "Kustomize",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Loki",
+            "id": "Loki",
+            "title": "Loki",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "New-Relic",
+            "id": "New-Relic",
+            "title": "New Relic",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "OpenTelemetry",
+            "id": "OpenTelemetry",
+            "title": "OpenTelemetry",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "OpenTracing",
+            "id": "OpenTracing",
+            "title": "OpenTracing",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "OpsGenie",
+            "id": "OpsGenie",
+            "title": "OpsGenie",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Prometheus",
+            "id": "Prometheus",
+            "title": "Prometheus",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Rapid7",
+            "id": "Rapid7",
+            "title": "Rapid7",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Service-Mesh",
+            "id": "Service-Mesh",
+            "title": "Service Mesh",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Terraform",
+            "id": "Terraform",
+            "title": "Terraform",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Terraform-Cloud",
+            "id": "Terraform-Cloud",
+            "title": "Terraform Cloud",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Vault",
+            "id": "Vault",
+            "title": "Vault",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Vercel",
+            "id": "Vercel",
+            "title": "Vercel",
+            "quadrant": "infrastructure"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AngularJS",
+            "id": "AngularJS",
+            "title": "AngularJS",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Appium",
+            "id": "Appium",
+            "title": "Appium",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "CircleCI",
+            "id": "CircleCI",
+            "title": "CircleCI",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Cocoapods",
+            "id": "Cocoapods",
+            "title": "Cocoapods",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Cordova",
+            "id": "Cordova",
+            "title": "Cordova",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Django",
+            "id": "Django",
+            "title": "Django",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Echo",
+            "id": "Echo",
+            "title": "Echo",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Fast-API",
+            "id": "Fast-API",
+            "title": "Fast API",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Fastlane",
+            "id": "Fastlane",
+            "title": "Fastlane",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Firebase",
+            "id": "Firebase",
+            "title": "Firebase",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": -1,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Flutter",
+            "id": "Flutter",
+            "title": "Flutter",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Gin-Gonic",
+            "id": "Gin-Gonic",
+            "title": "Gin Gonic",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Github-Actions",
+            "id": "Github-Actions",
+            "title": "Github Actions",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Gorilla/Mux",
+            "id": "Gorilla/Mux",
+            "title": "Gorilla/Mux",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Gradle",
+            "id": "Gradle",
+            "title": "Gradle",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Gulp",
+            "id": "Gulp",
+            "title": "Gulp",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Jenkins",
+            "id": "Jenkins",
+            "title": "Jenkins",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "JQuery",
+            "id": "JQuery",
+            "title": "JQuery",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Micronaut",
+            "id": "Micronaut",
+            "title": "Micronaut",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "NextJS",
+            "id": "NextJS",
+            "title": "NextJS",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Node.js",
+            "id": "Node.js",
+            "title": "Node.js",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Optimizely",
+            "id": "Optimizely",
+            "title": "Optimizely",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Phoenix",
+            "id": "Phoenix",
+            "title": "Phoenix",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Postman",
+            "id": "Postman",
+            "title": "Postman",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Preact",
+            "id": "Preact",
+            "title": "Preact",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Preact",
+            "id": "Preact",
+            "title": "Preact",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": -1,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "React-Native",
+            "id": "React-Native",
+            "title": "React Native",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "ReactJS",
+            "id": "ReactJS",
+            "title": "ReactJS",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": -1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Redux",
+            "id": "Redux",
+            "title": "Redux",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Robot-Framework",
+            "id": "Robot-Framework",
+            "title": "Robot Framework",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Rollup",
+            "id": "Rollup",
+            "title": "Rollup",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Sentry",
+            "id": "Sentry",
+            "title": "Sentry",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Spring",
+            "id": "Spring",
+            "title": "Spring",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Storybook",
+            "id": "Storybook",
+            "title": "Storybook",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Swift-Package-Manager",
+            "id": "Swift-Package-Manager",
+            "title": "Swift Package Manager",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Symfony",
+            "id": "Symfony",
+            "title": "Symfony",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Team-City",
+            "id": "Team-City",
+            "title": "Team City",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Vue.js",
+            "id": "Vue.js",
+            "title": "Vue.js",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Webpack",
+            "id": "Webpack",
+            "title": "Webpack",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "yarn",
+            "id": "yarn",
+            "title": "yarn",
+            "quadrant": "toolsAndFrameworks"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Apex",
+            "id": "Apex",
+            "title": "Apex",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "AsyncAPI",
+            "id": "AsyncAPI",
+            "title": "AsyncAPI",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": -1,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Dart",
+            "id": "Dart",
+            "title": "Dart",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Elixir",
+            "id": "Elixir",
+            "title": "Elixir",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Erlang",
+            "id": "Erlang",
+            "title": "Erlang",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Go",
+            "id": "Go",
+            "title": "Go",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "trial",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "GraphQL",
+            "id": "GraphQL",
+            "title": "GraphQL",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Java",
+            "id": "Java",
+            "title": "Java",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "JavaScript",
+            "id": "JavaScript",
+            "title": "JavaScript",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Kotlin",
+            "id": "Kotlin",
+            "title": "Kotlin",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "ObjectiveC",
+            "id": "ObjectiveC",
+            "title": "ObjectiveC",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "OpenAPI-(Swagger)",
+            "id": "OpenAPI-(Swagger)",
+            "title": "OpenAPI (Swagger)",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": -1,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "PHP",
+            "id": "PHP",
+            "title": "PHP",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "PUG",
+            "id": "PUG",
+            "title": "PUG",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Python",
+            "id": "Python",
+            "title": "Python",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Ruby",
+            "id": "Ruby",
+            "title": "Ruby",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": -1,
+                    "ringId": "assess",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Scala",
+            "id": "Scala",
+            "title": "Scala",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "Swift",
+            "id": "Swift",
+            "title": "Swift",
+            "quadrant": "languages"
+        },
+        {
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-04-01T00:00:00.000Z"
+                }
+            ],
+            "url": "#",
+            "key": "TypeScript",
+            "id": "TypeScript",
+            "title": "TypeScript",
+            "quadrant": "languages"
+        }
+    ],
+    "quadrants": [
+        {
+            "id": "infrastructure",
+            "name": "Infrastructure"
+        },
+        {
+            "id": "toolsAndFrameworks",
+            "name": "Tools & Frameworks"
+        },
+        {
+            "id": "languages",
+            "name": "Languages"
+        },
+        {
+            "id": "dataManagement",
+            "name": "Data Management"
+        }
+    ],
+    "rings": [
+        {
+            "id": "adopt",
+            "name": "ADOPT",
+            "color": "#93c47d"
+        },
+        {
+            "id": "trial",
+            "name": "TRIAL",
+            "color": "#93d2c2"
+        },
+        {
+            "id": "assess",
+            "name": "ASSESS",
+            "color": "#fbdb84"
+        },
+        {
+            "id": "hold",
+            "name": "HOLD",
+            "color": "#efafa9"
+        }
+    ]
+}
