@@ -218,6 +218,14 @@ const infrastructure = [
   {
     quadrant: 1,
     ring: 0,
+    label: 'Backstage',
+    active: false,
+    link: '../infrastructure/backstage.html',
+    moved: 0
+  },
+  {
+    quadrant: 1,
+    ring: 0,
     label: 'Prometheus',
     active: false,
     link: '../infrastructure/prometheus.html',
